@@ -7,6 +7,8 @@
 
 .container {
     background-image: url("./images/bg.jpeg");
+    background-position: center;
+    background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,31 +22,45 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    height: 500px;
-    width: 500px;
-    background-color: rgb(255, 255, 255);
 }
-.firstContainer{
+
+.content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+
 }
-.firstContainer img {
+
+.content img {
     width: 45%;
 }
 
-.firstContainer h1{
+.content h1{
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     text-align: center;
 }
-.firstContainer h3{
+
+.content h3{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     text-align: center;
     color: rgb(122, 118, 118);
-
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292E3F;
+    height: 500px;
+    width: 350px;
+}
+
