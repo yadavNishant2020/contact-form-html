@@ -113,6 +113,10 @@ button{
     font-size: 16px;
 }
 
+.info{
+    display: flex;
+    flex-direction: row;
+}
 p{
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
@@ -120,8 +124,11 @@ p{
     text-align: left;
     color: rgb(197, 196, 196);
     margin-top: 20px;
+    word-spacing: 2px;
 }
-svg{
-    width: 5%;
-    color: white;
+i{
+    color: rgb(197, 196, 196);
+    padding-right: 10px;
+    margin-top: 30px;
+
 }
