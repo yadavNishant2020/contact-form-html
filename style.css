@@ -133,3 +133,118 @@ i{
     margin-top: 30px;
 
 }
+
+/* responsive code */
+/* for phone */
+@media only screen and (max-width: 600px) {
+    .inner-container {
+        flex-direction: column;
+    }
+
+    .content {
+        height: 400px;
+        width: 300px;
+    }
+
+    .Form {
+        height: 400px;
+        width: 300px;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content h3 {
+        font-size: 10px;
+    }
+
+    .Form h1 {
+        font-size: 14px;
+
+    }
+
+    
+    button {
+        height: 35px;
+        width: 220px;
+        font-weight: 400;
+        font-size: 12px;
+        cursor: grab;
+    }
+
+    p {
+        font-size: 8px;
+        margin-top: 20px;
+    
+    }
+
+    i {
+        margin-top: 20px;
+    }
+}
+
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .content {
+        height: 400px;
+        width: 400px;
+    }
+
+    .content img {
+        width: 45%;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content h3 {
+        font-size: 10px;
+    }
+
+    .Form {
+        height: 400px;
+        width: 250px;
+
+    }
+
+    .Form h1 {
+        font-size: 14px;
+
+    }
+
+    input {
+        margin-bottom: 10px;
+        height: 30px;
+        width: 170px;
+
+        padding: 10px;
+
+    }
+
+    button {
+        height: 35px;
+        width: 170px;
+        font-weight: 400;
+        font-size: 12px;
+        cursor: grab;
+    }
+
+    p {
+        font-size: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        color: rgb(197, 196, 196);
+        margin-top: 10px;
+        word-spacing: 2px;
+    }
+
+    i {
+        padding-right: 10px;
+        margin-top: 10px;
+
+    }
+
+}
